@@ -33,7 +33,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
-    headless: false,
+    headless: true,
     video: {
       mode: 'on',    },
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
