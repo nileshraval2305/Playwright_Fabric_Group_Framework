@@ -5,8 +5,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  schedule:
-    - cron: '30 20 * * *'   # Runs daily at 20:30 UTC = 2:00 AM IST
+ 
   workflow_dispatch:         # Optional: allow manual trigger
 
 jobs:
